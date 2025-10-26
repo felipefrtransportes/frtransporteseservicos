@@ -4,10 +4,10 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: "./", // Importante para funcionar na Vercel
+  base: "./",
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "src"), // Corrige o alias @
+      "@": path.resolve(__dirname, "src"),
     },
   },
   build: {
